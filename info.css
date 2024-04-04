@@ -1,0 +1,60 @@
+.body {
+    background-color: #D2982D;
+}
+.tr_color {
+    background: #E0A12E;
+}
+.tr_col:hover {
+    color: #ffc107;
+}
+.tr_co:hover {
+    color: #ffc107;
+}
+.button_class {
+    border: 2px solid #E0A12E;
+    background: #D2982D;
+    color: #ffffff;
+}
+.button_class:hover {
+    color: #ffc107;
+}
+.rel {
+    position: relative;
+    margin: 1.5rem 0 1.5rem 0;
+    color: #ffffff;
+}
+.rel:hover {
+    color: #ffc107;
+}
+.obso {
+    position: absolute;
+    text-align: center;
+}
+.icon-rel1 {
+    width: 80%;
+    left: 10%;
+    top: 15%;
+}
+.icon-rel2{
+    width: 75%;
+    left: 15%;
+    top: 30%;
+}
+.icon-rel3 {
+    width: 80%;
+    left: 10%;
+    top: 35%;
+}
+.icon-rel4 {
+    width: 80%;
+    left: 10%;
+    top: 25%;
+}
+.svg-width {
+    width: 24px;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+.rota {
+    transform: rotate(90deg);
+}

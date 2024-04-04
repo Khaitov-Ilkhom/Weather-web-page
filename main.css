@@ -1,0 +1,62 @@
+.body {
+    background-color: #D2982D;
+}
+.nav-color a{
+    color: #ffffff;
+}
+.nav-color a:hover {
+    color: #ffc107;
+}
+.vector-1 {
+    background-image: url("./img/Vector 2.png");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat repeat;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.section-2 {
+    margin-top: 0;
+    background-color: #E0A12E;
+}
+.accordion-item {
+    --bs-accordion-bg: #D2982D;
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-btn-bg: #D2982D;
+    --bs-accordion-btn-color: #ffffff;
+    --bs-accordion-active-bg: #D2982D;
+    --bs-accordion-active-color: #ffffff;
+    --bs-accordion-border-color: #D2982D;
+    --bs-accordion-btn-focus-box-shadow: #D2982D;
+}
+.foot {
+    position: relative;
+}
+.fot {
+    position: absolute;
+    top: -4rem;
+}
+.footer_bg {
+    background-image: url("img/Divider.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footer-icon i:hover {
+    color: #ffc107;
+}
+.link {
+    padding: 4px;
+    text-decoration: none;
+    color: #ffc107;
+}
+.link:hover {
+    color: #ffffff;
+}
+.input-bg {
+    background: #ffc107;
+    border: none;
+}
+.input-bg:focus {
+    outline: none;
+}

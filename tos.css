@@ -1,0 +1,23 @@
+
+.back {
+    background: #E0A12E;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.over {
+    height: 30rem;
+    overflow: auto;
+}
+.over::-webkit-scrollbar {
+    width: 6px;
+}
+.over::-webkit-scrollbar {
+    max-height: 50%; height: 50%;
+}
+.over::-webkit-scrollbar-track {
+    background: #E0A12E;
+}
+.over::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 3px;
+}

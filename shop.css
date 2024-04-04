@@ -1,0 +1,62 @@
+.atmos {
+    color: white;
+}
+.shop-b {
+    background-color: #ffc107;
+    border: none;
+    transition: background-color 0.4s ease;
+}
+.shop-b:hover {
+    background-color: #D2982D;
+    border: 1px solid #ffc107;
+    color: #ffffff;
+}
+.shop-d {
+    background: #D2982D;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.shop-d:hover {
+    background: #ffc107;
+    border: #ffc107;
+    color: #000;
+}
+.input-check label {
+    cursor: pointer;
+}
+.switch-label {
+    margin: 0 10px 0 10px;
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+.switch-label::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #424242;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s;
+}
+input[type="checkbox"]:checked + .switch-label::after {
+    transform: translateX(30px);
+}
+.card-body {
+    min-height: 21rem;
+}
+.warning div{
+    background-color: #E0A12E;
+    border: none;
+    border-radius: 20px;
+}
+.warning:hover {
+    scale: 1.05;
+    transition: scale 0.8s ease-in-out;
+}
+
