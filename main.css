@@ -1,12 +1,46 @@
+
+
 .body {
     background-color: #D2982D;
 }
+/* nav bar */
 .nav-color a{
     color: #ffffff;
+    transition: all 0.5s ease-out;
 }
 .nav-color a:hover {
-    color: #ffc107;
+    color: #F5B747;
 }
+/* section */
+.btn_dark {
+    background: #2B261D;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    border: 1px solid #000000;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    transition: all 0.5s ease-out;
+}
+.btn_dark:hover {
+    background: #000000;
+}
+.btn_warning {
+    background: #e7a530;
+    color: #000000;
+    border: 1px solid #e7a530;
+    border-radius: 0.3rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    transition: all 0.5s ease-out;
+}
+.btn_warning:hover {
+    background: #D2982D;
+    color: #ffffff;
+}
+/* carousels */
+.carousel {
+    background-image: url("img/Vector -BG.png");
+
+}
+/* section */
 .vector-1 {
     background-image: url("./img/Vector 2.png");
     height: 200px;
@@ -14,10 +48,6 @@
     background-repeat: no-repeat repeat;
     color: #ffffff;
     margin-bottom: 0;
-}
-.section-2 {
-    margin-top: 0;
-    background-color: #E0A12E;
 }
 .accordion-item {
     --bs-accordion-bg: #D2982D;
@@ -29,18 +59,16 @@
     --bs-accordion-border-color: #D2982D;
     --bs-accordion-btn-focus-box-shadow: #D2982D;
 }
-.foot {
-    position: relative;
+.lin {
+    color: #F5B747;
 }
-.fot {
-    position: absolute;
-    top: -4rem;
-}
+/* footer */
 .footer_bg {
-    background-image: url("img/Divider.png");
+    background-image: url("img/Vector footer.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-top: 2.5rem;
 }
 .footer-icon i:hover {
     color: #ffc107;
@@ -48,15 +76,39 @@
 .link {
     padding: 4px;
     text-decoration: none;
-    color: #ffc107;
+    color: #F5B747;
+    transition: all 0.5s ease-out;
 }
 .link:hover {
     color: #ffffff;
 }
 .input-bg {
-    background: #ffc107;
+    background: #E0A12E;
     border: none;
+    color: #ffffff;
+    padding-left: 0.5rem;
+}
+.input-bg::placeholder {
+    color: #ffffff;
 }
 .input-bg:focus {
     outline: none;
+}
+
+
+/* 992px */
+@media only screen and (max-width: 992px) {
+    .text_center {
+        text-align: center;
+    }
+    div.section-2 {
+        visibility: hidden;
+    }
+}
+/* 768px */
+@media only screen and (max-width: 768px) {
+    .text_cen {
+        text-align: center;
+    }
+
 }

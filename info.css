@@ -4,27 +4,36 @@
 .tr_color {
     background: #E0A12E;
 }
+.tr_co {
+    color: #232323;
+    transition: all 0.5s ease-out;
+}
+.tr_col {
+    color: #232323;
+    transition: all 0.5s ease-out;
+}
 .tr_col:hover {
-    color: #ffc107;
+    color: #F5B747;
 }
 .tr_co:hover {
-    color: #ffc107;
+    color: #F5B747;
 }
 .button_class {
-    border: 2px solid #E0A12E;
-    background: #D2982D;
+    background: #e7a530;
     color: #ffffff;
+    border: 1px solid #e7a530;
+    border-radius: 0.3rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    transition: all 0.5s ease-out;
 }
 .button_class:hover {
-    color: #ffc107;
+    background: #D2982D;
+    color: #ffffff;
 }
 .rel {
     position: relative;
     margin: 1.5rem 0 1.5rem 0;
     color: #ffffff;
-}
-.rel:hover {
-    color: #ffc107;
 }
 .obso {
     position: absolute;

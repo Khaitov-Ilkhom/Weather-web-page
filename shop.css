@@ -1,10 +1,13 @@
-.atmos {
+.colors {
     color: white;
 }
 .shop-b {
-    background-color: #ffc107;
-    border: none;
-    transition: background-color 0.4s ease;
+    background: #e7a530;
+    color: #000000;
+    border: 1px solid #e7a530;
+    border-radius: 0.3rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    transition: all 0.5s ease-out;
 }
 .shop-b:hover {
     background-color: #D2982D;
@@ -12,14 +15,18 @@
     color: #ffffff;
 }
 .shop-d {
-    background: #D2982D;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    background: #e7a530;
+    color: #000000;
+    border: 1px solid #e7a530;
+    border-radius: 0.3rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    transition: all 0.5s ease-out;
+    text-transform: uppercase;
 }
 .shop-d:hover {
-    background: #ffc107;
-    border: #ffc107;
-    color: #000;
+    background: #D2982D;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 .input-check label {
     cursor: pointer;
@@ -57,6 +64,5 @@ input[type="checkbox"]:checked + .switch-label::after {
 }
 .warning:hover {
     scale: 1.05;
-    transition: scale 0.8s ease-in-out;
 }
 
