@@ -15,7 +15,7 @@
     <div class="container">
         <a class="navbar-brand text-light" href="#">JUNIPER</a>
         <button
-                class="navbar-toggler"
+                class="navbar-toggler custom-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup"
@@ -23,7 +23,7 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar_toggle_color"><i class="fa-solid fa-bars"></i></span>
         </button>
         <div
                 class="collapse navbar-collapse flex-grow-0"
@@ -88,7 +88,7 @@
 <!-- /section -->
 <!-- section2 -->
 <div class="container section-2">
-    <div class="row  p-5">
+    <div class="row p-5">
         <div class="col-lg-6 p-4">
             <div class="p-3">
                 <img class="img-fluid" src="./img/iPhone%2012%20Graphite%20Pro%20Top%20View%20Mockup.png" alt="img">
@@ -110,9 +110,14 @@
 </div>
 <!-- /section2 -->
 <!-- section3 -->
-<div class="container carousels">
-    <div class="row d-flex align-items-center ">
-        <div class="col-12 col-md-12 col-lg-6">
+<div class="container">
+    <div class="row d-flex align-items-center mt-4">
+        <div class="bg_position">
+            <div class="bg_absolute">
+                <img class="img-fluid" src="./img/Vector%20-BG.png" alt="background_img">
+            </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 carousel_1">
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -169,7 +174,7 @@
                 </button>
             </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-6">
+        <div class="col-12 col-md-12 col-lg-6 carousel_2">
             <div id="carouselExampleIndicators12" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="0"
@@ -347,19 +352,22 @@
         <div class="row footer_bg">
             <div class="col-12 col-md-3 col-lg-2 col-xl-3 mb-2">
                 <div class="row">
-                    <div class="col-2 col-md-12 col-xl-2">
+                    <div class="col-2 col-md-8 col-xl-2 offset-xl-2 offset-md-2 offset-lg-2 icon">
                         <a href="#" class="btn border-0 fs-4 link-light footer-icon">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
                     </div>
-                    <div class="col-2 col-md-12 col-xl-2">
+                    <div class="col-2 col-md-8 col-xl-2 offset-xl-0 offset-md-2 offset-lg-2 icon p-0">
                         <a href="#" class="btn border-0 fs-4 link-light footer-icon">
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-facebook-f face"></i>
                         </a>
                     </div>
-                    <div class="col-2 col-md-12 col-xl-2">
+                    <div class="col-2 col-md-8 col-xl-2 offset-xl-0 offset-md-2 offset-lg-2 icon p-0">
                         <a href="#" class="btn border-0 fs-4 link-light footer-icon">
-                            <i class="fa-brands fa-instagram"></i>
+                            <svg class="instagram_icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 7.20831C8.90589 7.20831 7.2083 8.90589 7.2083 11C7.2083 13.0941 8.90589 14.7916 11 14.7916C13.094 14.7916 14.7916 13.0941 14.7916 11C14.7916 8.90589 13.094 7.20831 11 7.20831Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.89776 0.595018C8.92057 0.145411 13.0794 0.145411 17.1022 0.595018C19.317 0.842555 21.1034 2.58763 21.3633 4.81019C21.8443 8.9227 21.8443 13.0772 21.3633 17.1898C21.1034 19.4123 19.317 21.1574 17.1022 21.4049C13.0794 21.8545 8.92057 21.8545 4.89776 21.4049C2.68297 21.1574 0.896574 19.4123 0.636625 17.1898C0.15563 13.0772 0.15563 8.9227 0.636625 4.81019C0.896574 2.58763 2.68297 0.842555 4.89776 0.595018ZM16.8333 3.99997C16.189 3.99997 15.6666 4.52231 15.6666 5.16664C15.6666 5.81097 16.189 6.33331 16.8333 6.33331C17.4776 6.33331 18 5.81097 18 5.16664C18 4.52231 17.4776 3.99997 16.8333 3.99997ZM5.4583 11C5.4583 7.93939 7.93939 5.45831 11 5.45831C14.0605 5.45831 16.5416 7.93939 16.5416 11C16.5416 14.0606 14.0605 16.5416 11 16.5416C7.93939 16.5416 5.4583 14.0606 5.4583 11Z" fill="white"/>
+                            </svg>
                         </a>
                     </div>
                 </div>

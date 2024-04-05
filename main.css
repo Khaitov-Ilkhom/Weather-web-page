@@ -11,6 +11,16 @@
 .nav-color a:hover {
     color: #F5B747;
 }
+.navbar-toggler {
+    --bs-navbar-toggler-border-color: #D2982D;
+}
+.navbar_toggle_color {
+    color: #ffffff;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    --bs-navbar-toggler-focus-width: none;
+}
 /* section */
 .btn_dark {
     background: #2B261D;
@@ -35,14 +45,17 @@
     background: #D2982D;
     color: #ffffff;
 }
-/* carousels */
-.carousel {
-    background-image: url("img/Vector -BG.png");
-
+/* */
+.bg_position {
+    position: relative;
+    bottom: 16rem;
+}
+.bg_absolute {
+    position: absolute;
 }
 /* section */
 .vector-1 {
-    background-image: url("./img/Vector 2.png");
+    background-image: url("./img/Divider.png");
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat repeat;
@@ -68,10 +81,19 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-top: 2.5rem;
+    padding-top: 5rem;
+}
+.icon a {
+    padding: 0;
 }
 .footer-icon i:hover {
     color: #ffc107;
+}
+.face {
+    width: 36px;
+}
+.instagram_icon {
+    width: 30px;
 }
 .link {
     padding: 4px;
@@ -94,8 +116,12 @@
 .input-bg:focus {
     outline: none;
 }
-
-
+/* 1400px */
+@media only screen and (max-width: 1400px) {
+    .bg_position {
+        bottom: 14rem;
+    }
+}
 /* 992px */
 @media only screen and (max-width: 992px) {
     .text_center {
@@ -103,6 +129,20 @@
     }
     div.section-2 {
         visibility: hidden;
+        height: 10rem;
+    }
+    .carousels {
+        margin-top: 3rem;
+    }
+    .bg_position {
+        bottom: 0.5rem;
+    }
+    div.carousel_1 {
+        margin-top: 10rem;
+    }
+    div.carousel_2 {
+        visibility: hidden;
+        height: 2rem;
     }
 }
 /* 768px */
@@ -110,5 +150,10 @@
     .text_cen {
         text-align: center;
     }
-
+    .bg_position {
+        bottom: 0;
+    }
+    div.carousel_1 {
+        margin-top: 6rem;
+    }
 }
