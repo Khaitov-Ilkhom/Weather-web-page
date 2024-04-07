@@ -258,7 +258,7 @@ hr.war {
     border-top: 2px solid #ffc543;
 }
 .text_h4_6 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.5rem;
     text-decoration: none;
@@ -269,7 +269,7 @@ hr.war {
     font-weight: 500;
     line-height: 1rem;
     color: #ffffff;
-    padding: 0.2rem 3rem 0.2rem 3rem;
+    padding: 0.2rem 2.5rem 0.2rem 2.5rem;
     background: #D2982D;
     border: 1px solid #F5B747;
     border-radius: 4px;
@@ -378,5 +378,8 @@ hr.war {
     }
     .carousel_bg {
         max-width: 27rem;
+    }
+    .btn_war {
+        padding: 0.1rem 1.5rem 0.1rem 1.5rem;
     }
 }
