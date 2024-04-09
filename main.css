@@ -104,6 +104,9 @@ body {
     line-height: 1.5rem;
 }
 /* carousel */
+.carousel_1 {
+
+}
 .carousel_bg {
     background: #403B45;
     padding: 0.7rem 1rem 0.5rem 2rem;
@@ -242,11 +245,19 @@ div.accordion-item h2:before {
 .link:hover {
     color: #ffffff;
 }
+input[type=email] {
+    background-image: url("./img/Telegram.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+input[type=email]:focus {
+    background-image: none;
+}
 .input-bg {
     background: #E0A12E;
     border: none;
     color: #ffffff;
-    padding-left: 0.5rem;
+    padding-left: 0.8rem;
 }
 .input-bg::placeholder {
     color: #ffffff;
@@ -281,6 +292,7 @@ hr.war {
 @media only screen and (max-width: 2000px) {
     .carousel_bg {
         max-width: 33rem;
+        min-height: 13rem;
     }
 }
 /* 1400px */
@@ -308,6 +320,7 @@ hr.war {
     }
     .carousel_bg {
         max-width: 27.5rem;
+        min-height: 15.5rem;
     }
 }
 /* 992px */
@@ -361,7 +374,7 @@ hr.war {
         text-align: center;
     }
     .bg_position {
-        bottom: 0;
+        bottom: -2rem;
     }
     div.carousel_1 {
         margin-top: 6rem;
@@ -381,5 +394,26 @@ hr.war {
     }
     .btn_war {
         padding: 0.1rem 1.5rem 0.1rem 1.5rem;
+    }
+    .carousel_1 {
+        min-width: 34rem;
+    }
+}
+/* 450px */
+@media only screen and (max-width: 450px) {
+    .carousel_1 {
+        min-width: 28rem;
+    }
+}
+/* 400px */
+@media only screen and (max-width: 400px) {
+    .bg_position {
+        bottom: -5rem;
+    }
+    div.carousel_1 {
+        margin-top: 10rem;
+    }
+    .carousel_1 {
+        min-width: 25rem;
     }
 }
