@@ -1,12 +1,29 @@
-.colors {
+
+/* section-1 */
+.shop_sec-1 {
+    margin: 3rem 2rem 0 2rem;
+}
+.shop_text_h4 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.5rem;
     color: white;
 }
+.shop_text_p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #403B45;
+}
 .shop-b {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
     background: #e7a530;
-    color: #000000;
+    color: #403B45;
     border: 1px solid #e7a530;
     border-radius: 0.3rem;
-    padding: 0.2rem 1rem 0.2rem 1rem;
+    padding: 0.2rem 2rem 0.2rem 2rem;
     transition: all 0.5s ease-out;
 }
 .shop-b:hover {
@@ -14,19 +31,59 @@
     border: 1px solid #ffc107;
     color: #ffffff;
 }
+/* section-3 */
 .shop-d {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
     background: #e7a530;
-    color: #000000;
-    border: 1px solid #e7a530;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 0.3rem;
     padding: 0.2rem 1rem 0.2rem 1rem;
     transition: all 0.5s ease-out;
     text-transform: uppercase;
+    margin: 1rem 3rem 1rem 3rem;
 }
 .shop-d:hover {
     background: #D2982D;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+}
+.shop_row {
+    padding: 0 2rem 0 2rem;
+}
+.shop_text_h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+.shop_text_h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+.shop_label {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+.shop_text_h5 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.shop_text_h3-2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.shop_span {
+    font-size: 1rem;
+    padding-bottom: 0.3rem;
+}
+.shop_card_text {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 0.9rem;
 }
 .input-check label {
     cursor: pointer;
@@ -54,16 +111,58 @@
 input[type="checkbox"]:checked + .switch-label::after {
     transform: translateX(30px);
 }
-.card-body {
-    min-height: 21rem;
+.warning .card {
+    background: #E0A12E;
+    border: none;
+    border-radius: 1.5rem;
+    min-height: 18rem;
 }
-.warning{
-    background-color: #E0A12E;
+.card {
+    background: #E0A12E;
     border: none;
     border-radius: 20px;
-    transition: all 3s;
+    transition: all 2s;
+    margin-top: 2rem;
 }
-.warning:hover {
-    transform: scale(1.1);
+.card:hover {
+    transform: scale(1.08);
 }
-
+/* 1200px */
+@media only screen and (max-width: 1200px) {
+    .shop_sec-1 {
+        margin: 3rem 0 0 0;
+    }
+    .warning .card {
+        min-height: 20rem;
+    }
+}
+/* 992px */
+@media only screen and (max-width: 992px) {
+    .shop_sec-1 {
+        margin: 0;
+        text-align: center;
+    }
+    .shop_row {
+        padding: 0;
+    }
+}
+/* 768px */
+@media only screen and (max-width: 768px) {
+    .shop_sec-1 {
+        margin: 0;
+        text-align: center;
+    }
+}
+/* 576px */
+@media only screen and (max-width: 576px) {
+    .shop_sec-1 {
+        margin: 0;
+        text-align: center;
+    }
+    .shop_text_p {
+        font-size: 1.2rem;
+    }
+    .shop-d {
+        padding: 0.2rem 0.1rem 0.2rem 0.1rem;
+    }
+}
