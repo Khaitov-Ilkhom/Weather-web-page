@@ -57,12 +57,13 @@ input[type="checkbox"]:checked + .switch-label::after {
 .card-body {
     min-height: 21rem;
 }
-.warning div{
+.warning{
     background-color: #E0A12E;
     border: none;
     border-radius: 20px;
+    transition: all 3s;
 }
 .warning:hover {
-    scale: 1.05;
+    transform: scale(1.1);
 }
 

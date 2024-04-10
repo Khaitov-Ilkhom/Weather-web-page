@@ -1,5 +1,19 @@
+
+/*  */
 .body {
     background-color: #D2982D;
+}
+/*  */
+.tr_th {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding-left: 2rem;
+}
+.tr_td_1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
 }
 .tr_color {
     background: #E0A12E;
@@ -7,17 +21,20 @@
 .tr_co {
     color: #232323;
     transition: all 0.5s ease-out;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding: 1rem 1rem 1rem 2rem;
 }
 .tr_col {
     color: #232323;
     transition: all 0.5s ease-out;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding: 1rem 1rem 1rem 2rem;
 }
-.tr_col:hover {
-    color: #F5B747;
-}
-.tr_co:hover {
-    color: #F5B747;
-}
+/*  */
 .button_class {
     background: #e7a530;
     color: #ffffff;
@@ -30,6 +47,7 @@
     background: #D2982D;
     color: #ffffff;
 }
+/*  */
 .rel {
     position: relative;
     margin: 1.5rem 0 1.5rem 0;
@@ -46,7 +64,7 @@
 }
 .icon-rel2{
     width: 75%;
-    left: 15%;
+    left: 20%;
     top: 30%;
 }
 .icon-rel3 {
@@ -60,10 +78,82 @@
     top: 25%;
 }
 .svg-width {
-    width: 24px;
+    width: 2.2rem;
     margin-left: 2rem;
     margin-bottom: 0.5rem;
 }
 .rota {
     transform: rotate(90deg);
+}
+.text_p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+/* 1200px */
+@media only screen and (max-width: 1200px) {
+    .tr_th {
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-left: 1rem;
+    }
+    .tr_td_1 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        padding-left: 0.5rem;
+    }
+    .tr_co .tr_col {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+    }
+    .tr_col {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+    }
+}
+/* 768px */
+@media only screen and (max-width: 768px) {
+    .tr_th {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .tr_td_1 {
+        font-size: 1rem;
+        line-height: 1rem;
+        padding-left: 0.5rem;
+    }
+    .tr_co {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+    }
+    .tr_col {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+    }
+}
+/* 576px */
+@media only screen and (max-width: 576px) {
+    .tr_th {
+        font-size: 0.9rem;
+        line-height: 0.8rem;
+    }
+    .tr_td_1 {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+        padding-left: 0.5rem;
+    }
+    .tr_co {
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+    }
+    .tr_col {
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+        padding: 0.5rem 0 0.5rem 1rem;
+    }
 }
