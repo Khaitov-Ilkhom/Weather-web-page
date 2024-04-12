@@ -57,6 +57,7 @@ body {
     border: 1px solid #000000;
     padding: 0.4rem 1rem 0.4rem 1rem;
     transition: all 0.5s ease-out;
+    margin-bottom: 0.5rem;
 }
 .btn_dark:hover {
     background: #000000;

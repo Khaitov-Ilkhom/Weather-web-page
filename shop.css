@@ -25,6 +25,7 @@
     border-radius: 0.3rem;
     padding: 0.2rem 2rem 0.2rem 2rem;
     transition: all 0.5s ease-out;
+    margin-bottom: 0.5rem;
 }
 .shop-b:hover {
     background-color: #D2982D;
